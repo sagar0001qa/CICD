@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="76670" started-at="2019-09-19T19:19:14Z" finished-at="2019-09-19T19:20:31Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="34497" started-at="2019-09-19T19:19:14Z" finished-at="2019-09-19T19:19:49Z">
+      <class name="guru_tests.loginTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:guru_tests.loginTest@14b1c02]" name="login" duration-ms="34475" started-at="2019-09-20T00:49:14Z" finished-at="2019-09-20T00:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- guru_tests.loginTest -->
+    </test> <!-- login -->
+    <test name="Verify_Mobile_sorting" duration-ms="42141" started-at="2019-09-19T19:19:49Z" finished-at="2019-09-19T19:20:31Z">
+      <class name="guru_tests.SortMobile">
+        <test-method status="PASS" signature="login()[pri:0, instance:guru_tests.SortMobile@1341870]" name="login" duration-ms="42136" started-at="2019-09-20T00:49:49Z" finished-at="2019-09-20T00:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- guru_tests.SortMobile -->
+    </test> <!-- Verify_Mobile_sorting -->
+  </suite> <!-- Suite1 -->
+</testng-results>

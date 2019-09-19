@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="1" >
+  <test name="login" >
+    <classes>
+       <class name="guru_tests.loginTest" />
+    </classes>
+  </test>
+  
+  <test name="Verify_Mobile_sorting" >
+    <classes>
+       <class name="guru_tests.SortMobile" />
+    </classes>
+  </test>
+  
+</suite>
