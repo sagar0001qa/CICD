@@ -22,7 +22,7 @@ public class loginTest extends testBase{
 		lp.setUsername("sagar01qa@gmail.com");
 		lp.setPassword("sagar123");
 		lp.clickSignup();
-		
+		System.out.println("");
 		
 	}
 		

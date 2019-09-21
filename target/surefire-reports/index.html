@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite1">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,6 +109,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="guru_tests.SortMobile" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="guru_tests.VerifyProductCost" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite1 -->
                   </li>
                 </ul>
@@ -124,7 +129,7 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">guru_tests.SortMobile</span>
+              <span class="class-name">guru_tests.loginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -139,7 +144,22 @@
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">guru_tests.loginTest</span>
+              <span class="class-name">guru_tests.VerifyProductCost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">guru_tests.SortMobile</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -171,6 +191,11 @@
       &lt;class name=&quot;guru_tests.SortMobile&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Verify_Mobile_sorting --&gt;
+  &lt;test name=&quot;Verify_Mobile_cost&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;guru_tests.VerifyProductCost&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify_Mobile_cost --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,6 +211,9 @@
               </li>
               <li>
                 <span class="test-name">Verify_Mobile_sorting (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify_Mobile_cost (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,20 +239,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'guru_tests.loginTest')
-data.setCell(0, 3, 18386);
+data.setCell(0, 3, 16632);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
-data.setCell(1, 2, 'guru_tests.SortMobile')
-data.setCell(1, 3, 6491);
+data.setCell(1, 2, 'guru_tests.VerifyProductCost')
+data.setCell(1, 3, 14635);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'guru_tests.SortMobile')
+data.setCell(2, 3, 12457);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -260,7 +292,14 @@ return data;
               <div class="chronological-class-name">guru_tests.SortMobile</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">18406 ms</span>
+                <span class="method-start">16654 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">guru_tests.VerifyProductCost</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">29120 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
