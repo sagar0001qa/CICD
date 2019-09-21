@@ -12,5 +12,4 @@
        <class name="guru_tests.SortMobile" />
     </classes>
   </test>
-  
-</suite>
+  </suite>
