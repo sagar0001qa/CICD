@@ -12,4 +12,11 @@
        <class name="guru_tests.SortMobile" />
     </classes>
   </test>
+  
+  <test name="Verify_Mobile_cost" >
+    <classes>
+       <class name="guru_tests.VerifyProductCost" />
+    </classes>
+  </test>
+  
   </suite>
